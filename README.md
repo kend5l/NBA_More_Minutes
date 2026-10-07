@@ -99,12 +99,34 @@ more_min_scatter.png: This scatter plot compares minutes per game with the initi
 balanced_candidate png's: The analysis then produces rankings based on the standardized balanced score.
 Seperate visuals are also generated for the minute pools and positional pools.
 
-## Results
+## Data Results
 
 The analysis produces ranked CSV files containing the players identified as the strongest statistical candidates for additional playing time.
 The rankings can be viewed at the overall 5–20 MPG level, within each individual minute pool, and within each positional pool.
 The project intentionally focuses on identifying candidates rather than declaring definitive answers.
 
+According to our analysis the following players averaging 5-15 MPG are candidates for elevated minutes:
+- PG's: Jeff Dowtin, TyTy Washington, Kennedy Chandler
+- SG's: Lindy Waters, Peyton Watson, Garrett Temple
+- SF's: Matisse Thybulle, Javonte Green, Matt Ryan
+- PF's: Derrick Jones, Davis Bertans, Juancho Hernangomez
+- C's: Udoka Azubuike, Luke Kornet, Mike Muscala
+
+## Real World Results
+
+Because our dataset is in the past we can look at future stats to verify our analysis. Let's ask the question, "Did the players we identify actually get increased minutes in the following years?". 
+Let's look at the 2023-2024 season data for the players we listed above. +- will be listed alongside player names. This will indicate the change in minutes from the 22-23 season to the 24-25 season
+Players will be grabbed in order of their ranking in positional dataset .csv files. Players who did not play during the 24-25 season are skipped.
+
+- PG's: Jeff Dowtin (+1.8), TyTy Washington (-8.9), Miles Mcbride (+7.6)
+- SG's: Lindy Waters (-5.6), Peyton Watson (+10.5), Garrett Temple (+4.2)
+- SF's: Matisse Thybulle (+15.6), Javonte Green (+10.6), Jalen Johnson (+18.8)
+- PF's: Derrick Jones (+11.5), Davis Bertans (+11.9), Chimezie Metu (+19)
+- C's: Udoka Azubuike (-2.9), Luke Kornet (+3.9), Mike Muscala (+7.5)
+
+WOAH! I did not expect our analysis to hold up so well in the real world. As I stated earlier, lots of factors go into a players playing time.
+Look at all those players who got the minutes they deserved in the following year!
+  
 ## Tech used:
 - Python
 - Pandas
