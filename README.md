@@ -82,16 +82,27 @@ Players are ranked within each pool based on their BALANCED_SCORE.
 This allows the analysis to ask a more specific question:
 Which players are performing well relative to other players receiving a similar amount of playing time?
 
+## Position Pools
+
+It's natural for positional statistics to vary. For example, a guard is most likely going to score the ball more than a center. 
+Because of this, players were compared to their positional peers in the following pools:
+
+Guards: Point Guard, Shooting Guard
+Forwards: Small Forward, Power Forward
+Centers: Center
+
+For positional analysis minute pools were abandoned. Additionally, only players averaging 5-15 Minutes per game were compared. I made this decision due to players with 15+ minutes dominating the upper results.
+
 ## Visuals
 
-more_min_scatter.png: This scatter plot compares minutes per game with the initial total statistical value.
+more_min_scatter.png: This scatter plot compares minutes per game with the initial total statistical value for players with 5-20 MPG
 balanced_candidate png's: The analysis then produces rankings based on the standardized balanced score.
-Seperate visuals are also generated for the minute pools
+Seperate visuals are also generated for the minute pools and positional pools.
 
 ## Results
 
 The analysis produces ranked CSV files containing the players identified as the strongest statistical candidates for additional playing time.
-The rankings can be viewed at both the overall 5–20 MPG level and within each individual minute pool.
+The rankings can be viewed at the overall 5–20 MPG level, within each individual minute pool, and within each positional pool.
 The project intentionally focuses on identifying candidates rather than declaring definitive answers.
 
 ## Tech used:
