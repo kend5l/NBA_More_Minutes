@@ -116,7 +116,7 @@ According to our analysis the following players averaging 5-15 MPG are candidate
 
 Because our dataset is in the past we can look at future stats to verify our analysis. Let's ask the question, "Did the players we identify actually get increased minutes in the following years?". 
 Let's look at the 2023-2024 season data for the players we listed above. +- will be listed alongside player names. This will indicate the change in minutes from the 22-23 season to the 24-25 season
-Players will be grabbed in order of their ranking in positional dataset .csv files. Players who did not play during the 24-25 season are skipped.
+Players will be grabbed in order of their ranking in positional dataset .csv files. Players who did not play during the 24-25 season are skipped, and the next player in line pulled up.
 
 - PG's: Jeff Dowtin (+1.8), TyTy Washington (-8.9), Miles Mcbride (+7.6)
 - SG's: Lindy Waters (-5.6), Peyton Watson (+10.5), Garrett Temple (+4.2)
